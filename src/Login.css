@@ -1,0 +1,226 @@
+   /* .loginn {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ffffff 50%, #0a8f2c 50%);
+  }
+  
+  .login-container {
+    display: flex;
+    width: 900px;
+    height: 500px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .login-left {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+  }
+  
+  .login-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .login-subtitle {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    display: flex;
+    align-items: center;
+    background: #f0fff0;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 8px;
+  }
+  
+  .input-field input {
+    border: none;
+    background: transparent;
+    outline: none;
+    flex: 1;
+    padding-left: 10px;
+  }
+  
+  .login-btn {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+  }
+  
+  .login-btn:hover {
+    background: #218838;
+  }
+  
+  .login-options {
+    text-align: center;
+  }
+  
+  .google-login, .facebook-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    background: white;
+  }
+  
+  .google-login img, .facebook-login img {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  .facebook-login {
+    border-color: #1877f2;
+  }
+  
+  .login-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #0a8f2c, #0c7023);
+  }
+  .illustration-box img {
+    max-width: 123%;
+    opacity: 0.5;
+    margin-block-end: 0px;
+    margin-inline-start: -42px;
+  }
+   */
+
+   .loog {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+    /* background: linear-gradient(to right, #fff, #008000); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    display: flex;
+    width: 80%;
+    max-width: 1000px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .login-box {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h2 {
+    font-weight: bold;
+  }
+  
+  p {
+    color: gray;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: #f0fff0;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  
+  .input-group .icon {
+    margin-right: 10px;
+  }
+  
+  .input-group input {
+    border: none;
+    background: none;
+    outline: none;
+    flex: 1;
+  }
+  
+  .login-btn {
+    background: #00c853;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 4px 10px rgba(0, 200, 83, 0.3);
+  }
+  
+  .or-text {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    background: white;
+  }
+  
+  .social-btn img {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  .illustration {
+    flex: 1;
+    background: #008000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .illustration img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+  }
+  

@@ -152,7 +152,7 @@ const Bord = () => {
           </ul>
         </div>
         <div className="footer-section">
-          <h3>Careers</h3>
+          <h3>Careers</h3> 
           <ul>
             <li><a href="#">Editorial Assistant</a></li>
             <li><a href="#">Internship</a></li>

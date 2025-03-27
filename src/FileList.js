@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-function Login() {
+function FileList() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [title, setTitle] = useState("");
@@ -98,4 +98,4 @@ function Login() {
     );
 }
 
-export default Login;
+export default FileList;
